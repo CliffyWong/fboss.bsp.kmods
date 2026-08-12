@@ -34,6 +34,9 @@ fbfancpld-objs := fbfancpld_i2c.o fboss_iob_led_trigger.o
 obj-m += th6_smbcpld.o
 th6_smbcpld-objs := th6_smbcpld_i2c.o lib/regbit-sysfs.o
 
+# PCA9534/PCA9535 driver for slot id on Anacapa platforms
+obj-m += anacapa_slot_id.o
+
 # Backported drivers.
 obj-m += backports/
 
