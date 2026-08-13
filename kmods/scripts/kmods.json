@@ -3,6 +3,7 @@
         "anacapa_fancpld",
         "anacapa_mcbcpld",
         "anacapa_scmcpld",
+        "anacapa_slot_id",
         "bp4f_adm1275",
         "bp4f_ina238",
         "bp4f_isl68137",
