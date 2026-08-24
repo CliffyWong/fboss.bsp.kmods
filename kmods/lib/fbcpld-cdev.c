@@ -370,8 +370,6 @@ int fbcpld_cdev_init(struct i2c_client *client)
 	cdesc->miscdev.fops = &fbcpld_cdev_fops;
 	cdesc->miscdev.parent = cdesc->dev;
 
-	i2c_set_clientdata(client, cdesc);
-
 	ret = misc_register(&cdesc->miscdev);
 	if (ret)
 		return ret;
